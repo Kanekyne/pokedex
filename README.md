@@ -1,36 +1,17 @@
-# Pokédex Angular
+﻿Paso a paso de cómo se desplegó el app pokedex en Azure.
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+Creación de la "Web App"
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+1. `	`Lo primero es tener la cuenta de Azure e ir al apartado "Create a resource".
+1. `	`dentro de las distintas opciones nos vamos a "Web app".
+1. `	`Establecemos el tipo de "subscripción" y el "resource group".
+1. `	`A continuación nombramos la instancia/app que estaremos desplegando.
+1. `	 `En nuestro caso, el Runtime stack lo trabajaremos con ".NET 6 LTS".
+1. `	`El sistema operativo lo estableceremos en Windows.
+1. `	`Para el ejercicio que nos atañe estaremos utilizando la región "US East 2".
+1. `	`En la opción "Pricing plan" nos aseguramos que el escogido sea el "Free/Gratis".
+1. `	`Le damos en "Review+create" (el botón azul que está en la parte inferior izquierda).
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
+NOTA: Toda opción con la cual, hasta hora y en adelante, no se le establece el valor que debe tener en este tutorial ES PORQUE DEBE MANTENERSE POR DEFAULT.
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
-
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
-
-## Requisitos mínimos
-
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
-
-## Ambiente de pruebas
-
-Ejecutar en la raíz del proyecto:
-
-```
-npm start
-```
-
-## Referencias
-
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
